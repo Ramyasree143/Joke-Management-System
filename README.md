@@ -1,10 +1,10 @@
-**Joke Management System
+Joke Management System
 
 Project Description
-**
+
 Joke Management System is a RESTful API built using Node.js, Express.js, MongoDB Atlas, and JWT Authentication. It allows users to register, login, and perform CRUD (Create, Read, Update, Delete) operations on jokes. Protected routes are secured using JSON Web Tokens (JWT).
 
-**Features**
+ Features 
 
 * User Registration
 * User Login
@@ -17,7 +17,7 @@ Joke Management System is a RESTful API built using Node.js, Express.js, MongoDB
 * Delete Joke
 * MongoDB Atlas Integration
 
-** Technologies Used**
+  Technologies Used 
 
 * Node.js
 * Express.js
@@ -27,9 +27,9 @@ Joke Management System is a RESTful API built using Node.js, Express.js, MongoDB
 * bcryptjs
 * Thunder Client 
 
-** Project Structure
+  Project Structure
 
-Joke-Management-System**
+Joke-Management-System 
 
 ├── config
 
@@ -49,7 +49,7 @@ Joke-Management-System**
 
 └── package-lock.json
 
- **Installation**
+  Installation 
 
 Clone the repository:
 
@@ -75,57 +75,57 @@ Run the server:
 
 node index.js
 
-** Authentication Routes**
+  Authentication Routes 
 
-**Register User**
+ Register User 
 
 POST /auth/register
 
-** Login User**
+  Login User 
 
 POST /auth/login
 
-** Joke Routes**
+  Joke Routes 
 
-** Add Joke**
+  Add Joke 
 
 POST /jokes/add
 
-** Get All Jokes**
+  Get All Jokes 
 
 GET /jokes/all
 
-**Get Joke By ID**
+ Get Joke By ID 
 
 GET /jokes/:id
 
-** Update Joke**
+  Update Joke 
 
 PUT /jokes/:id
 
-**Delete Joke**
+ Delete Joke 
 
 DELETE /jokes/:id
 
-**Sample Joke**
+ Sample Joke 
 
 {
 "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
 "category": "Programming"
 }
 
-**API Testing**
+ API Testing 
 
 The API can be tested using:
 
 * Thunder Client
 * Postman
 
-**Author**
+ Author 
 Ramya Sree Keerthi
 B.Tech CSE
 SRM University AP
 
-**License**
+ License 
 
 This project is developed for educational and learning purposes.
